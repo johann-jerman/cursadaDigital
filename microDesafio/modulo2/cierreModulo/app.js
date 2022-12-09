@@ -1,7 +1,9 @@
 let autosImportados = require("./autos");
+let personasImportados = require("./persona");
 
 let concesionaria = {
    autos: autosImportados,
+
    buscarAuto: function(patenteAuto){
       let autoEncontrado = this.autos.find(function(auto){
         return auto.patente == patenteAuto
@@ -46,12 +48,21 @@ let concesionaria = {
       }, 0)
       return saldoVenta
    },
+   
+   puedeComprar : function(auto, persona){
 
-   puedeComprar: function(){
-    
-   }
+      let capPagoCuotas = persona.capacidadDePagoEnCuotas;
+      let capPagoTotal = persona.capacidadDePagoTotal;
+
+      let precioTotal = auto.precio;
+      let numeroDeCuotas = auto.cuotas;
+      let valorCuota = precioTotal/numeroDeCuotas;
+
+      return ((capPagoCuotas > valorCuota) && (capPagoTotal > precioTotal));
+   },
+   
+   
 };
-
 
 
 
