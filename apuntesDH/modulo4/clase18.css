@@ -1,0 +1,53 @@
+
+/*resumen de fuentes(tipos de letras) */
+
+p{
+    font-family: Arial, Helvetica, sans-serif; 
+    /*selecciona la fuente de la letra */
+    
+    font-size: 20px;
+    /* selecciona el tamaño de las letras*/
+    
+    font-style: italic;
+    /* selecciona el tipo de estilo valor por defecto italic*/
+    
+    font-weight: bold;
+    /*selecciona el ancho de la letra bold le agraga un sombreado y ligther agrarga un delineado */
+    
+    text-align: left;
+    /*celecciona el margen en el que esta el texto*/
+    
+    text-decoration: underline;
+    /*decoraciones XD*/
+    
+    line-height: normal;
+    /*separacion entre cada renglon*/
+}
+
+p{
+    color: rebeccapurple;
+    /*secciona el color del elemento en este caso de las letras*/
+
+    background-color: red;
+    /*cambia el color del fondo */
+
+    opacity: .2;
+    /*el porcetaje de fisibilidad del elemento */
+}
+
+body{
+    background-image: none;
+    /*pone una foto de fondo recibe una direccion o url*/
+
+    background-repeat: no-repeat;
+    /*la cantidad de repeticiones de la imagen*/
+
+    background-position: 0% 100%;
+    /*selecciona la pocionamiento de la imagen*/
+
+    background-attachment: fixed;
+    /*decide la forma del fondo*/
+
+    background-size: contain;
+    /*contiene(parte de la pantalla) o cubre todo la pantalla*/
+}
