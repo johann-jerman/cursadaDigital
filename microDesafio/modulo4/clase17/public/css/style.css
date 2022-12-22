@@ -1,3 +1,56 @@
-nav{
-    background-color: yellow;
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.titles{
+    font-size: 24px;
+}
+
+.prices{
+    font-size: 18px;
+}
+
+.discounts{
+    font-size: 16px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.burger-menu{
+    background-color: #1259c3;
+    display: inline-block;
+    margin: 10px 50%;
+    width: 2em;
+    height: 2em;
+    border-radius: 25% ;
+
+}
+
+.burger-menu i{
+    color: #fff;
+    margin: 25%;
+}
+
+footer{
+    text-align: center;
+}
+
+section i{
+    color: #1259c3;
+    width: 2em;
+    height: 2em;
+    border-radius: 25% ;
 }
