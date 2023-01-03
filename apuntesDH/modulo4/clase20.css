@@ -1,0 +1,22 @@
+div{
+    display: flex;
+    /*permite modificar el contenedor al espacop*/
+
+    flex-direction: row;
+    /*eje main(x)*/
+
+    justify-content: center;
+    /*centra el contenido del eje x*/
+
+    align-items: center;
+    /*centra contenido del eje y*/
+
+    flex-wrap: wrap;
+    /*los elementos mantienen sus dimenciones saltando de linia si es nesesario*/
+
+    order: -1;
+    /*si es negativo pasa al prinsipio si es 1 pasa al final*/
+
+    align-self: center;
+    /*alinea los item en el eje Y*/
+}

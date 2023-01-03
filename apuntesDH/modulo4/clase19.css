@@ -1,9 +1,28 @@
-div{
-    height: auto;
-    /*el alto del contenedor */
-    
-    width: auto;
-    /*el ancho del contenedor*/
+h1{
+    display: block; 
+    /*se usa para cambiar la propiedad del elemento */
 
-    
+    width: auto;
+    /*determina nuestro ANCHO*/
+
+    height: auto;
+    /*determina nuestro ALTO (no siempre es recomendable su uso)*/
+
+    padding: 0%;
+    /*separacion entre la caja y su contenido*/
+
+    margin: auto;
+    /*separacion entra la caja y el exterior*/
+
+    border: 1px coral solid;
+    /*agraga un borde*/
+
+    box-sizing: border-box;
+    /*hace que la caja no pueda superar el tamaño estipulado aun que tenga borde padding etc*/
+}
+
+/**/
+
+@media(min-460px){
+    /*aca establecemos las medidas de las media querys*/
 }
