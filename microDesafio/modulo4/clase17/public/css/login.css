@@ -1,10 +1,3 @@
-/* Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a; */
-
 * {
   margin: 0;
   padding: 0;
@@ -76,7 +69,6 @@ li a {
   margin: 10px 0;
 }
 
-
 .burger-menu {
   background-color: #1259c3;
   width: 2.5em;
@@ -91,64 +83,7 @@ li a {
   margin: auto;
 }
 
-main {
-  margin: 0 auto;
-  width: 95vw;
-}
-section {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
-}
-main section article i {
-  display: block;
-  font-size: 16px;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #39b54a;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  right: 20px;
-  top: -15px;
-  color: #39b54a;
-}
-.titles {
-  font-size: 24px;
-}
-article {
-  margin: 10px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-article img {
-  width: 80vw;
-  height: 40vh;
-  padding: 10px;
-}
-.conteiner {
-  border-top: #ebebeb 1px solid;
-  padding: 15px;
-  text-align: left;
-  font-size: 12px;
-  position: relative;
-}
 
-.prices {
-  font-size: 18px;
-  flex-grow: .3;
-}
-
-.discounts {
-  font-size: 16px;
-  color: #39b54a;
-}
-
-.description {
-  font-size: 16px;
-  padding-top: 15px;
-}
 
 
 footer {
@@ -161,7 +96,6 @@ footer section i {
   height: 2em;
   margin: 10px;
 }
-
 @media (max-width: 361px) {
   .navegation {
     display: none;
@@ -170,7 +104,7 @@ footer section i {
   .description {
     display: none;
   }
-  .home-banner{
+  .home-banner {
     display: none;
   }
 }
@@ -183,18 +117,9 @@ footer section i {
   .burger-menu {
     display: none;
   }
-  .home-banner{
+  .home-banner {
     width: 100vw;
     padding: 0;
-  }
-  article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 40vw;
-  }
-
-  article img {
-    width: 90%;
-    height: 40vh;
   }
 }
 
@@ -204,19 +129,19 @@ footer section i {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
-  .nav-all{
+  .nav-all {
     display: flex;
     width: 100vw;
   }
-  .nav-tittle{
+  .nav-tittle {
     margin: auto 0;
-    flex-grow: .3;
+    flex-grow: 0.3;
   }
-  .nav-conteiner{
-    flex-grow: .60;
+  .nav-conteiner {
+    flex-grow: 0.6;
     width: 60vw;
   }
-  .logo-liebre{
+  .logo-liebre {
     height: 100%;
     width: 50%;
   }
@@ -227,17 +152,8 @@ footer section i {
   .burger-menu {
     display: none;
   }
-  .home-banner{
+  .home-banner {
     width: 100vw;
     padding: 0;
-  }
-  article {
-    width: 21vw;
-    height: 60vh;
-  }
-
-  article img {
-    width: 90%;
-    height: 40vh;
   }
 }
